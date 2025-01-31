@@ -34,3 +34,27 @@ This tool avoids traditional process creation that can leave artifacts in comman
    ```sh
    git clone https://github.com/sheb1853/enabler-ops.git
 
+## **Usage**
+Run the tool from an elevated command prompt:
+
+```sh
+Enabler-ops.exe -localadmin <password>
+
+----------------------------------------------------
+                  by Timothians
+----------------------------------------------------
+
+[*] Running as: NT AUTHORITY\SYSTEM
+[*] Enabling Local Administrator...
+[+] Local Administrator account enabled and password updated.
+[*] Enabling RDP...
+[+] RDP Enabled.
+[+] Firewall rules updated for RDP.
+[+] TermService is already running.
+[*] Adding 'Administrator' to Remote Desktop Users and Administrators...
+[+] User 'Administrator' is already a member of 'Remote Desktop Users' group.
+[+] User 'Administrator' is already a member of 'Administrators' group.
+[+] Local Administrator setup completed successfully.
+
+
+
